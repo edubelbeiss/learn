@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  @name = "world"
+  @name = "everyone"
   erb :index
 end
 
